@@ -1,6 +1,7 @@
 import react from "react";
 import foto from "../img/foto.jpg"
 
+
 export default function informacion(){
     return(
         <>
