@@ -1,4 +1,5 @@
 import react from "react";
+import foto from "../img/foto.jpg"
 
 export default function informacion(){
     return(
@@ -13,7 +14,7 @@ export default function informacion(){
                                         <div className="row">
                                             <div className="col-sm-6 col-md-5">
                                                 <div className="about-img">
-                                                    <img src="src/img/foto.jpg"
+                                                    <img src={foto}
                                                          className="img-fluid rounded b-shadow-a" alt=""></img>
                                                 </div>
                                             </div>
